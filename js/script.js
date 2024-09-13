@@ -37,7 +37,6 @@ header.innerHTML = `   <header class="bg-warning py-2">
         </div>
     </div>
 </nav>
-
 `;
 
 const footer = document.querySelector(".footer");

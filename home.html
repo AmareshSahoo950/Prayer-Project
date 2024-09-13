@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Prayer - Home</title>
+    <!--Logo-section-->
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo.png" />
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
@@ -14,8 +16,78 @@
     <!-- Header Section -->
     <div class="header"></div>
 
+    <!--main-section-->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <div class="carousel-inner my-5 mx-2">
+        <div
+          class="carousel-item active"
+          style="
+            background-image: url('./images/temple2.jpg');
+            object-fit: cover;
+          "
+        >
+          <div
+            class="d-flex justify-content-center align-items-center"
+            style="height: 80vh"
+          >
+            <div class="text-center text-dark mt-5">
+              <h2>Some Important Life Lessons From Gita</h2>
+              <a href="#" class="btn btn-primary text-white">Join Today</a>
+              <a href="#" class="btn btn-secondary">Darshon</a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="carousel-item"
+          style="
+            background-image: url('./images/squirrel-temple.jpg');
+            object-fit: cover;
+          "
+        >
+          <div
+            class="d-flex justify-content-center align-items-center"
+            style="height: 80vh"
+          ></div>
+        </div>
+        <div
+          class="carousel-item"
+          style="
+            background-image: url('./images/temple4.jpg');
+            object-fit: bottom;
+          "
+        >
+          <div
+            class="d-flex justify-content-center align-items-center"
+            style="height: 80vh"
+          ></div>
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#myCarousel"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#myCarousel"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </a>
+    </div>
+
     <!-- Main Section -->
-    <section class="hero-section text-center py-5">
+    <!-- <section class="hero-section text-center py-5">
       <div class="container">
         <div class="row">
           <div class="col-md-6 right-section">
@@ -32,7 +104,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Footer Section -->
     <div class="footer"></div>
