@@ -30,6 +30,9 @@ header.innerHTML = `   <header class="bg-warning py-2">
                 <li class="nav-item">
                     <a class="nav-link" href="./contact-us.html">Contact Us</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./login.html">Login</a>
+                </li>
             </ul>
         </div>
     </div>
